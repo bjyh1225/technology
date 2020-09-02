@@ -1,0 +1,400 @@
+{"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/product/product",
+            "style" : {
+							"navigationBarTitleText":"产品租用",
+							"app-plus":{
+								
+							}
+						}
+        }
+        ,{
+            "path" : "pages/information/information",
+            "style" : {
+							"navigationBarTitleText":"展会资讯",
+							"app-plus":{
+								"titleNView":{
+									"backgroundColor":"#0093bb",
+									"titleColor":"#fff"
+								}
+							}
+						}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+							"navigationBarTitleText":"产品介绍"
+						}
+        }
+        ,{
+            "path" : "pages/cases/cases",
+            "style" : {
+							"navigationBarTitleText":"应用案例",
+							"app-plus":{
+								"titleNView":{
+									"backgroundColor":"#0093bb",
+									"titleColor":"#fff"
+								}
+							}
+						}
+        }
+        ,{
+            "path" : "pages/engineerRent/engineerRent",
+            "style" : {
+							"navigationBarTitleText":"租用申请"
+						}
+        }
+        ,{
+            "path" : "pages/rentProtocol/rentProtocol",
+            "style" : {
+							"navigationBarTitleText":"租用协议"
+						}
+        }
+        ,{
+            "path" : "pages/signature/signature",
+            "style" : {
+							"navigationBarTitleText":"签名"
+						}
+        }
+        ,{
+            "path" : "pages/confirm/confirm",
+            "style" : {
+							"navigationBarTitleText":"租用合计"
+						}
+        }
+        ,{
+            "path" : "pages/productRent/productRent",
+            "style" : {
+							"navigationBarTitleText":"租用申请"
+						}
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" : {
+							"navigationBarTitleText":"地址管理",
+							"app-plus":{
+								"titleNView":{
+									"backgroundColor":"#0093bb",
+									"titleColor":"#fff"
+								}
+							}
+						}
+        }
+        ,{
+            "path" : "pages/addressEdit/addressEdit",
+            "style" : {
+							"navigationBarTitleText":"新增收货地址",
+							"app-plus":{
+								"titleNView":{
+									"backgroundColor":"#0093bb",
+									"titleColor":"#fff"
+								}
+							}
+						}
+        }
+        ,{
+            "path" : "pages/video/video",
+            "style" : {
+							"navigationBarTitleText":"视频专区",
+							"app-plus":{
+								"titleNView":{
+									"backgroundColor":"#0093bb",
+									"titleColor":"#fff"
+								}
+							}
+						}
+        }
+        
+        ,{
+            "path" : "pages/generalInfo/generalInfo",
+            "style" : {
+				"navigationBarTitleText":"基本资料",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#0093bb",
+						"titleColor":"#fff"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/certification/certification",
+            "style" : {
+				"navigationBarTitleText":"实名认证",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#0093bb",
+						"titleColor":"#fff"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/collect/collect",
+            "style" : {
+				"navigationBarTitleText":"我的收藏",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#0093bb",
+						"titleColor":"#fff"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/productRentOrder/productRentOrder",
+            "style" : {
+				"navigationBarTitleText":"产品租用列表",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#fff",
+						"titleColor":"black"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/engineerOrder/engineerOrder",
+            "style" : {
+				"navigationBarTitleText":"工程师租用",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#fff",
+						"titleColor":"black"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/payment/payment",
+            "style" : {
+				"navigationBarTitleText":"订单支付",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#0093BB",
+						"titleColor":"#fff"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/unallocated/unallocated",
+            "style" : {
+				"navigationBarTitleText":"订单详情",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#0093BB",
+						"titleColor":"#fff"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/allocated/allocated",
+            "style" : {
+            	"navigationBarTitleText":"订单详情",
+            	"app-plus":{
+            		"titleNView":{
+            			"backgroundColor":"#0093BB",
+            			"titleColor":"#fff"
+            		}
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/consignment/consignment",
+           "style" : {
+           	"navigationBarTitleText":"订单详情",
+           	"app-plus":{
+           		"titleNView":{
+           			"backgroundColor":"#0093BB",
+           			"titleColor":"#fff"
+           		}
+           	}
+           }
+        }
+        ,{
+            "path" : "pages/accountSecurity/accountSecurity",
+            "style" : {
+            	"navigationBarTitleText":"账户与安全",
+            	"app-plus":{
+            		"titleNView":{
+            			"backgroundColor":"#fff",
+            			"titleColor":"black"
+            		}
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/delivered/delivered",
+           "style" : {
+           	"navigationBarTitleText":"订单详情",
+           	"app-plus":{
+           		"titleNView":{
+           			"backgroundColor":"#0093BB",
+           			"titleColor":"#fff"
+           		}
+           	}
+           }
+        },
+		{
+		    "path" : "",
+		    "style" : {
+		    	"navigationBarTitleText":"测试",
+		    	"app-plus":{
+		    		"titleNView":{
+		    			"backgroundColor":"#fff",
+		    			"titleColor":"black"
+		    		}
+		    	}
+		    }
+		}
+        ,{
+            "path" : "pages/changePassword/changePassword",
+            "style" : {
+            	"navigationBarTitleText":"修改密码",
+            	"app-plus":{
+            		"titleNView":{
+            			"backgroundColor":"#fff",
+            			"titleColor":"black"
+            		}
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/bindPhone/bindPhone",
+            "style" : {
+            	"navigationBarTitleText":"绑定手机号",
+            	"app-plus":{
+            		"titleNView":{
+            			"backgroundColor":"#fff",
+            			"titleColor":"black"
+            		}
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/videoPlay/videoPlay",
+            "style" : {
+					"navigationBarTitleText":"视频详情",
+					"app-plus":{
+						"titleNView":{
+							"backgroundColor":"#fff",
+							"titleColor":"black"
+						}
+					}
+			}
+        }
+        ,{
+            "path" : "pages/changephone/changephone",
+            "style" : {
+            	"navigationBarTitleText":"绑定手机号",
+            	"app-plus":{
+            		"titleNView":{
+            			"backgroundColor":"#fff",
+            			"titleColor":"black"
+            		}
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/chageNewPhone/chageNewPhone",
+            "style" : {
+            	"navigationBarTitleText":"更换绑定手机号",
+            	"app-plus":{
+            		"titleNView":{
+            			"backgroundColor":"#fff",
+            			"titleColor":"black"
+            		}
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+            	"navigationBarTitleText":"",
+            	"app-plus":{
+            		"titleNView":{
+            			"backgroundColor":"#fff",
+            			"titleColor":"black"
+            		}
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/authorize/authorize",
+           "style" : {
+           	"navigationBarTitleText":"登录",
+           	"app-plus":{
+           		"titleNView":{
+           			"backgroundColor":"#fff",
+           			"titleColor":"black"
+           		}
+           	}
+           }
+        }
+        ,{
+            "path" : "pages/logistics/logistics",
+            "style" : {
+            	"navigationBarTitleText":"查看物流",
+            	"app-plus":{
+            		"titleNView":{
+            			"backgroundColor":"#fff",
+            			"titleColor":"black"
+            		}
+            	}
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#4c4c4c",
+		"selectedColor":"#0093bb",
+		"backgroundColor":"#ffffff",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icon-tab-home-off.png",
+				"selectedIconPath":"static/icon-tab-home-on.png",
+				"text":"首页"
+			},{
+				"pagePath":"pages/product/product",
+				"iconPath":"static/icon-tab-product-off.png",
+				"selectedIconPath":"static/icon-tab-product-on.png",
+				"text":"产品"
+			},{
+				"pagePath":"pages/information/information",
+				"iconPath":"static/icon-tab-information-off.png",
+				"selectedIconPath":"static/icon-tab-information-on.png",
+				"text":"资讯"
+			},{
+				"pagePath":"pages/user/user",
+				"iconPath":"static/icon-tab-user-off.png",
+				"selectedIconPath":"static/icon-tab-user-on.png",
+				"text":"我的"
+			}
+		]
+	}
+}
